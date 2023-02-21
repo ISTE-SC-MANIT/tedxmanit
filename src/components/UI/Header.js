@@ -12,8 +12,10 @@ import './Header.css';
 export const App = () => {
     return (
         <div className="container_">
-            <div>
+            <div className="header_content">
                 <img src={logo}/>
+                <h3>EVENT DATE</h3>
+                <h3>REGISTRATION LINK</h3>
             </div>
         </div>
     );
